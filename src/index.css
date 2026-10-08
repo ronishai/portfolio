@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Red Hat Mono', monospace;
+    background-color: black;
+    color: rgba(255, 211, 224, 0.976);
+  }
+
+  .font-mono {
+    font-family: 'Red Hat Mono', monospace;
+  }
+}
+
+.neon-glow {
+  color: #fff0f5;
+  text-shadow: 0 0 10px rgb(255, 173, 189);
+}
+
+.intense-pink-glow {
+  color: #fff0f5;
+  text-shadow:
+    0 0 5px #ffb7c5,
+    0 0 10px #ffb7c5,
+    0 0 20px #d878aa,
+    0 0 40px #f472b6;
+}
+
+.glass-panel {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ffb7c5;
+}
