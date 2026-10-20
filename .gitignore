@@ -3,22 +3,6 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-<<<<<<< HEAD
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-=======
 pnpm-debug.log*
 lerna-debug.log*
 
@@ -40,14 +24,11 @@ build/
 .vscode/*
 !.vscode/extensions.json
 .idea/
->>>>>>> a167e1d (readme and gitignore)
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
-=======
 
 # macOS metadata (DS_Store files)
 .DS_Store
@@ -60,4 +41,3 @@ Thumbs.db
 
 # Vite cache
 .vite/
->>>>>>> a167e1d (readme and gitignore)
