@@ -12,8 +12,7 @@ function Header() {
           scrambleSpeed={35}
           trailLength={4}
           startDelay={300}
-          showCursor
-          cursorCharacter="_"
+          showCursor={false}
         />
       </h1>
     </header>

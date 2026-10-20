@@ -13,8 +13,7 @@ function About() {
           scrambleSpeed={30}
           trailLength={4}
           startDelay={500}
-          showCursor
-          cursorCharacter="_"
+          showCursor={false}
         />
       </h2>
 
