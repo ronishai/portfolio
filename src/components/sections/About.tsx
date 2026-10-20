@@ -1,8 +1,9 @@
 import { AsciiMorphText } from '../ascii/AsciiMorphText';
+import TerminalCard from '../ui/TerminalCard';
 
 function About() {
   return (
-    <section className="flex flex-col gap-5">
+    <section className="flex flex-col gap-8 max-w-4xl">
       <h2 className="text-4xl font-bold text-pink-200 neon-glow mb-4">
         <AsciiMorphText
           text="About Me"
@@ -16,15 +17,18 @@ function About() {
           cursorCharacter="_"
         />
       </h2>
-      <p className="glass-panel flex flex-col gap-6 sm:gap-8 p-4 sm:p-6 text-xl text-pink-200">
-        I am a Junior Full-Stack Developer with a strong foundation in modern web technologies and
-        IT infrastructure. I specialize in building end-to-end applications using TypeScript, React,
-        NestJS, and Nx monorepos. With experience leading a technical team and supporting
-        mission-critical systems in time-sensitive environments, I bring a practical,
-        problem-solving approach to software development, focusing on clean architecture,
-        maintainability, and scalability. I am passionate about creating efficient, user-friendly
-        applications and continuously learning new technologies to enhance my skill set.
-      </p>
+
+      <TerminalCard title="roni@portfolio:~">
+        <p className="mb-4">
+          <span className="text-pink-300">$&gt;</span> I am a Junior Full-Stack Developer with a
+          strong foundation in modern web technologies and IT infrastructure.
+        </p>
+        <p>
+          <span className="text-pink-300">$&gt;</span> Specializing in TypeScript, React, NestJS,
+          and Nx monorepos, with a background as a System Administrator, and experience leading a
+          technical team in operational environments.
+        </p>
+      </TerminalCard>
     </section>
   );
 }

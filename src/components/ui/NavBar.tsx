@@ -3,7 +3,7 @@ const navLinkStyle =
 
 const NavBar = () => {
   return (
-    <nav className="bg-linear-to-b from-black to-transparent fixed top-0 w-full z-50 py-4">
+    <nav className="bg-linear-to-b from-black via-black/80 to-transparent fixed top-0 w-full z-50 py-4">
       <div className="container mx-auto flex justify-center items-center">
         <div className="flex items-center space-x-6 sm:space-x-8">
           <a href="#about" className={navLinkStyle}>

@@ -14,16 +14,15 @@
 
 .neon-glow {
   color: #fff0f5;
-  text-shadow: 0 0 10px rgb(255, 173, 189);
+  text-shadow: 0 0 12px #fb9cca;
 }
 
 .intense-pink-glow {
   color: #fff0f5;
   text-shadow:
-    0 0 5px #ffb7c5,
-    0 0 10px #ffb7c5,
-    0 0 20px #d878aa,
-    0 0 40px #f472b6;
+    0 0 5px #ffb6d9,
+    0 0 10px #fb9cca,
+    0 0 20px #de77ad
 }
 
 .glass-panel {
